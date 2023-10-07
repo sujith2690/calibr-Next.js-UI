@@ -15,9 +15,9 @@ const Navbar = () => {
     ];
     return (
         <nav className="border-gray-200 bg-[#F5F7FA]">
-            <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+            <div className="w-screen flex flex-wrap items-center justify-between mx-auto p-4 px-10">
                 <div className="div">
-                    <Image src="/mainLogo.png" alt="User Logo" width={100} height={24} />
+                    <Image src="/mainLogo.png" alt="User Logo" width={150} height={24} />
                 </div>
                 <div className="items-center justify-between w-full md:flex hidden md:w-auto">
                     <ul className="flex flex-col  font-medium p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:border-0">
