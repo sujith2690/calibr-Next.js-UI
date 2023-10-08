@@ -2,7 +2,7 @@ import Navbar from './components/navbar/page'
 import Hero from './components/hero/page'
 import Client from './components/client/page'
 import Manage from './components/manage/page'
-import UserLogin from './components/login/page'
+import Login from './components/login/page'
 import Help from './components/help/page'
 import { data, security } from './data/dataFile'
 import Tesla from './components/tesla/page'
@@ -17,9 +17,9 @@ export default function Home() {
       <Hero />
       <Client />
       <Manage />
-      <UserLogin data={data} />
+      <Login data={data} />
       <Help />
-      <UserLogin data={security} />
+      <Login data={security} />
       <Tesla />
       <Caring />
       <FooterHead />
