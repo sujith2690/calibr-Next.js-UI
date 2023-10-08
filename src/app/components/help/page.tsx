@@ -30,8 +30,8 @@ const Help = ({ }) => {
     return (
         <div className="bg-[#F5F7FA] flex items-center justify-around p-5 py-10">
             <div className="div">
-                <h1 className='text-2xl font-semibold text-[#4D4D4D]'>Helping a local</h1>
-                <h1 className='text-2xl text-[#4CAF4F]'>business reinvent itself</h1>
+                <h1 className='text-4xl font-semibold text-[#4D4D4D]'>Helping a local</h1>
+                <h1 className='text-4xl text-[#4CAF4F]'>business reinvent itself</h1>
                 <p>We reached here with our hard work and dedication</p>
             </div>
             <div>

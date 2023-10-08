@@ -8,6 +8,8 @@ import Help from './components/help/page'
 import { data, security } from './data/dataFile'
 import Tesla from './components/tesla/page'
 import Caring from './components/caring/page'
+import FooterHead from './components/footerHead/page'
+import Footer from './components/footer/page'
 
 export default function Home() {
   return (
@@ -15,13 +17,14 @@ export default function Home() {
       <Navbar />
       <Hero />
       <Client />
-      <Manage/>
-      <UserLogin data ={data}/>
-      <Help/>
-      <UserLogin data ={security}/>
-      <Tesla/>
-      <Caring/>
-
+      <Manage />
+      <UserLogin data={data} />
+      <Help />
+      <UserLogin data={security} />
+      <Tesla />
+      <Caring />
+      <FooterHead />
+      <Footer/>
     </>
   )
 }

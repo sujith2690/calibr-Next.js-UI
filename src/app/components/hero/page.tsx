@@ -7,10 +7,10 @@ const Hero = () => {
         <div className="bg-[#F5F7FA] px-10">
             <div className="grid grid-cols-[6fr,3fr] p-10 items-center bg-[#F5F7FA] ">
                 <div className='flex flex-col gap-5' >
-                    <h1 className='text-4xl font-semibold'>
+                    <h1 className='text-6xl font-semibold'>
                         Lessons and insights <br />
                     </h1>
-                    <h1 className='text-[#4CAF4F] text-4xl font-semibold'>from 8 years</h1>
+                    <h1 className='text-[#4CAF4F] text-6xl font-semibold'>from 8 years</h1>
                     <p>Where to grow your business as a photographer: site or social media?</p>
                     <div className="w-32">
                         <Button value='Register' />

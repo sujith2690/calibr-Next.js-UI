@@ -23,10 +23,10 @@ const Manage = () => {
     return (
         <div className='p-5'>
             <div className=' text-center'>
-                <h1 className='text-2xl font-bold text-[#4D4D4D]'>
+                <h1 className='text-4xl font-bold text-[#4D4D4D]'>
                     Manage Your Entire Community <br /> <span>In a single system</span>
                 </h1>
-                <p className='mt-3 text-xs text-[#717171]'>Who is Nextcent Suitable for?</p>
+                <p className='mt-3 text-sm text-[#717171]'>Who is Nextcent Suitable for?</p>
             </div>
             <div className='flex justify-around mt-5'>
                 {data.map((item, i) => (
@@ -34,8 +34,8 @@ const Manage = () => {
                         <div className=' flex  justify-center '>
                             <Image src={item.image} alt={item.heading} width={60} height={24} />
                         </div>
-                        <p className='text-xl text-[#4D4D4D] font-semibold'>{item.heading}</p>
-                        <p className='text-xs text-[#717171]'>{item.content}</p>
+                        <p className='text-2xl text-[#4D4D4D] font-semibold'>{item.heading}</p>
+                        <p className='text-sm text-[#717171]'>{item.content}</p>
                     </div>
                 ))}
             </div>
