@@ -21,7 +21,7 @@ const UserLogin: React.FC<{ data: UserData }> = ({ data }) => {
                 <div className="mt-5">
                     <button
                         className='px-5 py-2 text-white bg-[#4CAF4F] rounded-sm text-sm'>
-                        Learn More
+                        Learn More.
                     </button>
                 </div>
             </div>
