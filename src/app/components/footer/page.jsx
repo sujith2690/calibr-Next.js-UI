@@ -43,7 +43,7 @@ const Footer = () => {
             <div className='grid grid-cols-3'>
                 {content.map((item, i) => {
                     return (
-                        <div>
+                        <div key={i}>
                             <p className='text-md mb-4'>{item.heading}</p>
                             <p className='text-sm text-[#f5f7fac2] mb-3'>{item.text1}</p>
                             <p className='text-sm text-[#f5f7fac2] mb-3'>{item.text2}</p>
