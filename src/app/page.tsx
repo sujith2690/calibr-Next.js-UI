@@ -1,4 +1,3 @@
-import Image from 'next/image'
 import Navbar from './components/navbar/page'
 import Hero from './components/hero/page'
 import Client from './components/client/page'
