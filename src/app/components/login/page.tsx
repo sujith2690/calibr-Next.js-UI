@@ -7,7 +7,7 @@ interface UserData {
     content: string;
 }
 
-const Login: React.FC<{ data: UserData }> = ({ data }) => {
+const UserLogin: React.FC<{ data: UserData }> = ({ data }) => {
     return (
         <div className="flex flex-col   md:flex-row p-4 md:p-10  bg-[#F5F7FA] md:gap-5">
             <div className='w-full md:w-full lg:w-full xl:w-full flex justify-center items-center'>
@@ -29,4 +29,4 @@ const Login: React.FC<{ data: UserData }> = ({ data }) => {
     )
 }
 
-export default Login
+export default UserLogin
