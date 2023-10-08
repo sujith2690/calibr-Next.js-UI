@@ -1,6 +1,5 @@
 import Image from 'next/image'
 import React from 'react'
-import Button from '../button/page'
 import { BsArrowRight } from 'react-icons/bs';
 
 

@@ -1,5 +1,4 @@
 import React from 'react'
-import Button from '../button/page'
 import { BsArrowRight } from 'react-icons/bs';
 
 const FooterHead = () => {

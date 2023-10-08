@@ -1,5 +1,4 @@
 import React from 'react'
-import Button from '../button/page'
 import Image from 'next/image'
 
 const Hero = () => {
@@ -13,7 +12,10 @@ const Hero = () => {
                     <h1 className='text-[#4CAF4F] text-6xl font-semibold'>from 8 years</h1>
                     <p>Where to grow your business as a photographer: site or social media?</p>
                     <div className="w-32">
-                        <Button value='Register' />
+                        <button
+                            className='px-5 py-2 text-white bg-[#4CAF4F] rounded-sm text-sm'>
+                            Register
+                        </button>
                     </div>
                 </div>
                 <div>

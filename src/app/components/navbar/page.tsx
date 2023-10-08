@@ -1,7 +1,6 @@
 "use client";
 import React, { useState } from 'react';
 import Image from 'next/image';
-import Button from '../button/page';
 import { HiMenu } from 'react-icons/hi';
 
 const Navbar = () => {
@@ -35,7 +34,10 @@ const Navbar = () => {
                 </div>
                 <div className="flex md:order-2 items-center text-center gap-5">
                     <p className='text-[#4CAF4F] text-sm cursor-pointer'>Login</p>
-                    <Button value='Sign Up' />
+                    <button
+                        className='px-5 py-2 text-white bg-[#4CAF4F] rounded-sm text-sm'>
+                        Sign Up
+                    </button>
                     <HiMenu
                         className={`md:hidden w-10 h-10 cursor-pointer ${menuOpen ? 'text-gray-500' : 'text-black'}`}
                         onClick={toggleMenu}

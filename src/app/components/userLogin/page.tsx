@@ -1,6 +1,5 @@
 import Image from 'next/image'
 import React from 'react'
-import Button from '../button/page'
 
 interface UserData {
     image: string;
@@ -20,7 +19,10 @@ const UserLogin: React.FC<{ data: UserData }> = ({ data }) => {
                     <p className='text-sm text-[#717171]'>{data.content}</p>
                 </div>
                 <div className="mt-5">
-                    <Button value='Learn More' />
+                    <button
+                        className='px-5 py-2 text-white bg-[#4CAF4F] rounded-sm text-sm'>
+                        Learn More
+                    </button>
                 </div>
             </div>
         </div>
