@@ -37,7 +37,7 @@ const Caring = () => {
                                 <p className='text-md text-[#717171]'>{item.content}</p>
                                 <div className='flex text-[#4CAF4F] items-center gap-2 justify-center'>
                                     <p className='text-md'>Read more</p>
-                                    <BsArrowRight />
+                                    <BsArrowRight />    
                                 </div>
                             </div>
                         </div>
